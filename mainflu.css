@@ -27,6 +27,11 @@ section .conteiner{
     align-items: flex-start;
 }
 
+header h1,
+section h2{
+    font-weight: normal ;
+}
+
 section .conteiner{
     margin-top: 24px;
 }
@@ -36,7 +41,9 @@ section h3{
     text-align: center;
     margin-bottom: 16px;
 }
-
+    section h3{
+        margin-top: 32px;
+    }
 p{
     text-align: justify;
     margin-bottom: 16px;
@@ -61,4 +68,81 @@ section img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.primeira ul li{
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+#trofeu{
+    margin-right: 276px;
+}
+
+.conquistas{
+    display: block;
+}
+
+form input,
+form button{
+    display: block;
+    text-align: center;
+    width: 880px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+body,
+input{
+    font-family: 'roboto', sans-serif;
+}
+
+header h1,
+section h2,
+section h3,
+form button,
+form{
+    font-family: 'bungee', cursive;
+    font-weight: normal;
+}
+
+section{
+    color: #084808;
+}
+
+form button{
+    background-color: #084808;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #1cac1c;
+}
+
+input:focus{
+    outline-color: #084808;
+}
+
+hr{
+    color: #084808;
+}
+
+footer{
+    background-color: #084808;
+    color: aliceblue;
+    padding: 16px 0;
+    text-align: left;
+}
+
+footer div img{
+    height: 24px;
+    margin-right: 16px;
+}
+
+footer .conteiner{
+    display: flex;
+    justify-content: space-between;
 }
